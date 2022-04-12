@@ -1,0 +1,56 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.users-data-container {
+  width: 90%;
+}
+
+.search-container {
+  background: #2f2f43;
+  border-radius: 8px;
+  margin: 32px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 57.22%;
+  height: 52px;
+}
+.search-icon {
+  color: #94a3b8;
+  font-size: 24px;
+  margin: 0px 32px;
+}
+
+.search-bar {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  width: 90%;
+  padding-right: 20px;
+  color: #94a3b8;
+}
+
+.data-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+}
+.table {
+  width: 100vw;
+}
+.table .ant-table-tbody > tr.ant-table-row-selected > td {
+  background-color: lightgray;
+}
